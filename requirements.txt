@@ -1,5 +1,5 @@
 colorama
 requests
-httpsing
+httpsin
 pandas
 ctypes
