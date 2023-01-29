@@ -1,5 +1,0 @@
-colorama
-requests
-xhttpsp
-pandas
-ctypes
