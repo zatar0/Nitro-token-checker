@@ -1,5 +1,5 @@
 requests
-xhttpsp
+latencyget
 json
 datetime
 ctypes
