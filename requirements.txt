@@ -1,5 +1,4 @@
 requests
-httops
 json
 datetime
 ctypes
