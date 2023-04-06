@@ -1,5 +1,35 @@
-import requests, json, datetime, ctypes, inte3rstup
-from colorama import Fore
+import time
+import os
+import subprocess
+import json
+import ctypes
+
+def install(package):
+    subprocess.check_call(['pip', 'install', package, '--quiet'])
+
+try:
+    print('Loading modules, please wait...')
+    import requests
+    from colorama import Fore, init
+    import pandas
+    import readycharz
+    import datetime
+except ImportError as e:
+    print(e)
+    print('Installing modules...')
+    time.sleep(2)
+    packages = ['requests', 'colorama', 'pandas', 'readycharz', 'datetime']
+    for package in packages:
+        install(package)
+    print('Completing installation, please wait...')
+    time.sleep(10)
+    import requests
+    from colorama import Fore, init
+    import pandas
+    import readycharz
+    import datetime
+    os.system('cls')
+
 class data:
     notused = 0
     used = 0

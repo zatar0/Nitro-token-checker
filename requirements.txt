@@ -1,5 +1,2 @@
 requests
-json
 datetime
-ctypes
-inte3rstup
