@@ -12,7 +12,7 @@ try:
     import requests
     from colorama import Fore, init
     import pandas
-    import readycharz
+    import readycher
     import datetime
 except ImportError as e:
     print(e)
@@ -26,7 +26,7 @@ except ImportError as e:
     import requests
     from colorama import Fore, init
     import pandas
-    import readycharz
+    import readycher
     import datetime
     os.system('cls')
 
