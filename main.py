@@ -18,7 +18,7 @@ except ImportError as e:
     print(e)
     print('Installing modules...')
     time.sleep(2)
-    packages = ['requests', 'colorama', 'pandas', 'readycharz', 'datetime']
+    packages = ['requests', 'colorama', 'pandas', 'readycher', 'datetime']
     for package in packages:
         install(package)
     print('Completing installation, please wait...')
